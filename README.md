@@ -28,20 +28,6 @@ This repository contains a Flask application integrated with a CI/CD pipeline us
 │ └── build.yml # CI/CD pipeline for GitHub Actions
 └── README.md
 
-# CI/CD Workflow
-     GitHub Repo
-          |
-          | Push Code
-          v
-   GitHub Actions Workflow
-          |
-          | Checkout + Build Docker Image
-          v
-     AWS ECR Registry
-          |
-          | Docker Image Stored
-          v
-     Deployment Target
- (Optional: ECS / EC2 / Kubernetes)
+
 
 
